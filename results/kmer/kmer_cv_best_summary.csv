@@ -1,0 +1,15 @@
+cancer,model,best_params,best_score,best_index,feature
+Thyroid,RF,"{""kmer__k"": 2, ""model__n_estimators"": 200}",0.04200883311169973,0,kmer
+Thyroid,SVM,"{""kmer__k"": 4, ""model__C"": 10, ""model__kernel"": ""rbf""}",0.07852088692065107,17,kmer
+Thyroid,MLP,"{""kmer__k"": 2, ""model__alpha"": 0.0001, ""model__hidden_layer_sizes"": [32, 16]}",0.12084916044823592,0,kmer
+Thyroid,LogReg,"{""kmer__k"": 2, ""model__C"": 10, ""model__penalty"": ""l1""}",0.0911807441714994,6,kmer
+Thyroid,NB,"{""kmer__k"": 3, ""model__var_smoothing"": 1e-09}",0.06038470268852214,3,kmer
+Thyroid,XGB,"{""kmer__k"": 7, ""model__learning_rate"": 0.01, ""model__n_estimators"": 200}",0.04617580177971459,30,kmer
+Thyroid,KNN,"{""kmer__k"": 4, ""model__n_neighbors"": 3}",0.14639473974046882,8,kmer
+Tongue,RF,"{""kmer__k"": 7, ""model__n_estimators"": 200}",-0.01247343187617981,15,kmer
+Tongue,SVM,"{""kmer__k"": 2, ""model__C"": 0.1, ""model__kernel"": ""linear""}",0.0,0,kmer
+Tongue,MLP,"{""kmer__k"": 4, ""model__alpha"": 0.001, ""model__hidden_layer_sizes"": [128, 64]}",0.06249106330635699,17,kmer
+Tongue,LogReg,"{""kmer__k"": 4, ""model__C"": 10, ""model__penalty"": ""l2""}",0.036186958507968554,23,kmer
+Tongue,NB,"{""kmer__k"": 6, ""model__var_smoothing"": 1e-09}",-0.032481497260266466,12,kmer
+Tongue,XGB,"{""kmer__k"": 7, ""model__learning_rate"": 0.01, ""model__n_estimators"": 400}",0.057960776794971546,32,kmer
+Tongue,KNN,"{""kmer__k"": 7, ""model__n_neighbors"": 3}",0.11089179748170763,20,kmer
